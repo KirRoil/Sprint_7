@@ -1,0 +1,53 @@
+{
+  "uid" : "77b553e838d8bc63",
+  "name" : "orderCanBeCreatedWithColor[0]",
+  "historyId" : "orders.OrdersParamTest:orders.OrdersParamTest#orderCanBeCreatedWithColor[0]",
+  "time" : {
+    "duration" : 2203
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "567127a77e856470",
+      "name" : "System out",
+      "source" : "567127a77e856470.txt",
+      "type" : "text/plain",
+      "size" : 297
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "orders.OrdersParamTest"
+  }, {
+    "name" : "testClass",
+    "value" : "orders.OrdersParamTest"
+  }, {
+    "name" : "package",
+    "value" : "orders.OrdersParamTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77b553e838d8bc63.json",
+  "parameterValues" : [ ]
+}

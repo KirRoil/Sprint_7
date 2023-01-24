@@ -1,0 +1,53 @@
+{
+  "uid" : "dd4cf3ea782e4d12",
+  "name" : "loginNonexistentCourierFails",
+  "historyId" : "couriers.LoginTest:couriers.LoginTest#loginNonexistentCourierFails",
+  "time" : {
+    "duration" : 976
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "efee069e3845b611",
+      "name" : "System out",
+      "source" : "efee069e3845b611.txt",
+      "type" : "text/plain",
+      "size" : 550
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "couriers.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "couriers.LoginTest"
+  }, {
+    "name" : "package",
+    "value" : "couriers.LoginTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd4cf3ea782e4d12.json",
+  "parameterValues" : [ ]
+}

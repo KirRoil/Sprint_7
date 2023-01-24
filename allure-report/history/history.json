@@ -1,0 +1,275 @@
+{
+  "couriers.LoginTest:couriers.LoginTest#loginWithoutPasswordFails" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6209c058ae1511f",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <504>.\n",
+      "time" : {
+        "duration" : 64339
+      }
+    } ]
+  },
+  "couriers.LoginTest:couriers.LoginTest#loginWithInvalidPasswordFails" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d955f7458157afa",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4107
+      }
+    } ]
+  },
+  "couriers.CourierTest:couriers.CourierTest#courierWithBusyLoginCanNotBeCreated" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "710e53704a6146e8",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4425
+      }
+    } ]
+  },
+  "couriers.LoginTest:couriers.LoginTest#courierCanLoggedIn" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a9264572f371ab0",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3327
+      }
+    } ]
+  },
+  "couriers.LoginTest:couriers.LoginTest#loginWithoutLoginFails" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5119c65b1828f269",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4288
+      }
+    } ]
+  },
+  "couriers.LoginTest:couriers.LoginTest#loginWithInvalidLoginFails" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57dc2c9179fceef5",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4029
+      }
+    } ]
+  },
+  "orders.OrderTest:orders.OrderTest#listOfOrdersCanBeGot" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8653f61bc440040e",
+      "status" : "passed",
+      "time" : {
+        "duration" : 7953
+      }
+    } ]
+  },
+  "couriers.CourierTest:couriers.CourierTest#courierWithoutLoginCanNotBeCreated" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e05a05a9c437ec76",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1098
+      }
+    } ]
+  },
+  "orders.OrdersParamTest:orders.OrdersParamTest#orderCanBeCreatedWithColor[3]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be7e5f8584a8b04e",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2061
+      }
+    } ]
+  },
+  "couriers.CourierTest:couriers.CourierTest#courierWithoutPasswordCanNotBeCreated" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7907eac4395b9169",
+      "status" : "passed",
+      "time" : {
+        "duration" : 7847
+      }
+    } ]
+  },
+  "orders.OrdersParamTest:orders.OrdersParamTest#orderCanBeCreatedWithColor[2]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13f415460e87dbc9",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2254
+      }
+    } ]
+  },
+  "orders.OrdersParamTest:orders.OrdersParamTest#orderCanBeCreatedWithColor[1]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af1f5ab357e473e1",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2012
+      }
+    } ]
+  },
+  "orders.OrdersParamTest:orders.OrdersParamTest#orderCanBeCreatedWithColor[0]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77b553e838d8bc63",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2203
+      }
+    } ]
+  },
+  "couriers.LoginTest:couriers.LoginTest#loginNonexistentCourierFails" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd4cf3ea782e4d12",
+      "status" : "passed",
+      "time" : {
+        "duration" : 976
+      }
+    } ]
+  },
+  "couriers.CourierTest:couriers.CourierTest#courierCanBeCreated" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb97b7ed31952813",
+      "status" : "passed",
+      "time" : {
+        "duration" : 3557
+      }
+    } ]
+  },
+  "couriers.CourierTest:couriers.CourierTest#identicalCourierCanNotBeCreated" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f473630c103cbe39",
+      "status" : "passed",
+      "time" : {
+        "duration" : 4050
+      }
+    } ]
+  }
+}
