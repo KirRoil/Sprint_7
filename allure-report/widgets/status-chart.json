@@ -1,0 +1,129 @@
+[ {
+  "uid" : "4a9264572f371ab0",
+  "name" : "courierCanLoggedIn",
+  "time" : {
+    "duration" : 3327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af1f5ab357e473e1",
+  "name" : "orderCanBeCreatedWithColor[1]",
+  "time" : {
+    "duration" : 2012
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd4cf3ea782e4d12",
+  "name" : "loginNonexistentCourierFails",
+  "time" : {
+    "duration" : 976
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5119c65b1828f269",
+  "name" : "loginWithoutLoginFails",
+  "time" : {
+    "duration" : 4288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d955f7458157afa",
+  "name" : "loginWithInvalidPasswordFails",
+  "time" : {
+    "duration" : 4107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be7e5f8584a8b04e",
+  "name" : "orderCanBeCreatedWithColor[3]",
+  "time" : {
+    "duration" : 2061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e05a05a9c437ec76",
+  "name" : "courierWithoutLoginCanNotBeCreated",
+  "time" : {
+    "duration" : 1098
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13f415460e87dbc9",
+  "name" : "orderCanBeCreatedWithColor[2]",
+  "time" : {
+    "duration" : 2254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "710e53704a6146e8",
+  "name" : "courierWithBusyLoginCanNotBeCreated",
+  "time" : {
+    "duration" : 4425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f473630c103cbe39",
+  "name" : "identicalCourierCanNotBeCreated",
+  "time" : {
+    "duration" : 4050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb97b7ed31952813",
+  "name" : "courierCanBeCreated",
+  "time" : {
+    "duration" : 3557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7907eac4395b9169",
+  "name" : "courierWithoutPasswordCanNotBeCreated",
+  "time" : {
+    "duration" : 7847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57dc2c9179fceef5",
+  "name" : "loginWithInvalidLoginFails",
+  "time" : {
+    "duration" : 4029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6209c058ae1511f",
+  "name" : "loginWithoutPasswordFails",
+  "time" : {
+    "duration" : 64339
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8653f61bc440040e",
+  "name" : "listOfOrdersCanBeGot",
+  "time" : {
+    "duration" : 7953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77b553e838d8bc63",
+  "name" : "orderCanBeCreatedWithColor[0]",
+  "time" : {
+    "duration" : 2203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,24 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nExpected status code <400> but was <504>.\n",
+      "children" : [ {
+        "name" : "loginWithoutPasswordFails",
+        "uid" : "c6209c058ae1511f",
+        "parentUid" : "1d8f1f7a133e17931abd80cead18da26",
+        "status" : "failed",
+        "time" : {
+          "duration" : 64339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d8f1f7a133e17931abd80cead18da26"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

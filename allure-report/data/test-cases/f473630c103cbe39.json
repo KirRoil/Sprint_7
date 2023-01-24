@@ -1,0 +1,53 @@
+{
+  "uid" : "f473630c103cbe39",
+  "name" : "identicalCourierCanNotBeCreated",
+  "historyId" : "couriers.CourierTest:couriers.CourierTest#identicalCourierCanNotBeCreated",
+  "time" : {
+    "duration" : 4050
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "72cf48864ae1ab73",
+      "name" : "System out",
+      "source" : "72cf48864ae1ab73.txt",
+      "type" : "text/plain",
+      "size" : 294
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "couriers.CourierTest"
+  }, {
+    "name" : "testClass",
+    "value" : "couriers.CourierTest"
+  }, {
+    "name" : "package",
+    "value" : "couriers.CourierTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f473630c103cbe39.json",
+  "parameterValues" : [ ]
+}
