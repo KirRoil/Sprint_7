@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: couriers.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 81.082 s <<< FAILURE! - in couriers.LoginTest
-loginWithoutPasswordFails(couriers.LoginTest)  Time elapsed: 64.339 s  <<< FAILURE!
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 85.829 s <<< FAILURE! - in couriers.LoginTest
+loginWithoutPasswordFailsTest(couriers.LoginTest)  Time elapsed: 64.96 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <400> but was <504>.
 
-	at couriers.LoginTest.loginWithoutPasswordFails(LoginTest.java:57)
+	at couriers.LoginTest.loginWithoutPasswordFailsTest(LoginTest.java:57)
 

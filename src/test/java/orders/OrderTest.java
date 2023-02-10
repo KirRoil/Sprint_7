@@ -24,10 +24,10 @@ public class OrderTest {
     }
 
     @Test
-    public void listOfOrdersCanBeGot() {
+    public void listOfOrdersCanBeGotTest() {
         ValidatableResponse createResponse = ordersClient.create(defaultOrder);
         ValidatableResponse getResponse = ordersClient.returnListOfOrders();
-        check.gettingSuccessfully(getResponse);
         orderId = createResponse.extract().path("track");
+        check.gettingSuccessfully(getResponse);
     }
 }

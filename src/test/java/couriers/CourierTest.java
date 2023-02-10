@@ -28,45 +28,42 @@ public class CourierTest {
     }
 
     @Test
-    public void courierCanBeCreated() {
+    public void courierCanBeCreatedTest() {
         ValidatableResponse createResponse = courierClient.create(randomCourier);
-        check.createdSuccessfully(createResponse);
-
         courierId = courierClient.login(CourierCredentials.from(randomCourier)).extract().path("id");
+        check.createdSuccessfully(createResponse);
     }
 
     @Test
-    public void identicalCourierCanNotBeCreated() {
+    public void identicalCourierCanNotBeCreatedTest() {
         courierClient.create(randomCourier);
         ValidatableResponse createResponse = courierClient.create(randomCourier);
-        check.creationConflicted(createResponse);
-
         courierId = courierClient.login(CourierCredentials.from(randomCourier)).extract().path("id");
+        check.creationConflicted(createResponse);
     }
 
     @Test
-    public void courierWithoutLoginCanNotBeCreated() {
+    public void courierWithoutLoginCanNotBeCreatedTest() {
         randomCourier.setLogin(null);
         ValidatableResponse createResponse = courierClient.create(randomCourier);
         check.creationFailed(createResponse);
     }
 
     @Test
-    public void courierWithoutPasswordCanNotBeCreated() {
+    public void courierWithoutPasswordCanNotBeCreatedTest() {
         randomCourier.setPassword(null);
         ValidatableResponse createResponse = courierClient.create(randomCourier);
         check.creationFailed(createResponse);
     }
 
     @Test
-    public void courierWithBusyLoginCanNotBeCreated() {
+    public void courierWithBusyLoginCanNotBeCreatedTest() {
         randomCourier.setLogin("IdenticalLogin");
         courierClient.create(randomCourier);
         Courier secondCourier = CourierGenerator.getRandom();
         secondCourier.setLogin("IdenticalLogin");
         ValidatableResponse createResponse = courierClient.create(secondCourier);
-        check.creationConflicted(createResponse);
-
         courierId = courierClient.login(CourierCredentials.from(randomCourier)).extract().path("id");
+        check.creationConflicted(createResponse);
     }
 }

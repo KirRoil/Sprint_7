@@ -28,16 +28,16 @@ public class LoginTest {
     }
 
     @Test
-    public void courierCanLoggedIn() {
+    public void courierCanLoggedInTest() {
         courierClient.create(randomCourier);
         CourierCredentials credentials = CourierCredentials.from(randomCourier);
         ValidatableResponse loginResponse = courierClient.login(credentials);
-        check.loggedInSuccessfully(loginResponse);
         courierId = loginResponse.extract().path("id");
+        check.loggedInSuccessfully(loginResponse);
     }
 
     @Test
-    public void loginWithoutLoginFails() {
+    public void loginWithoutLoginFailsTest() {
         courierClient.create(randomCourier);
         courierId = courierClient.login(CourierCredentials.from(randomCourier)).extract().path("id");
         CourierCredentials credentials = CourierCredentials.from(randomCourier);
@@ -48,7 +48,7 @@ public class LoginTest {
     //Тысяча извинений, но у меня логин без пароля падает с таймаутом. Возможно, потому что я в Индии.
     //В отчете аллюра это будет отражено. По документации код ошибки один, для теста код идентичен тоже. Я не знаю, что у меня не так.
     @Test
-    public void loginWithoutPasswordFails() {
+    public void loginWithoutPasswordFailsTest() {
         courierClient.create(randomCourier);
         courierId = courierClient.login(CourierCredentials.from(randomCourier)).extract().path("id");
         CourierCredentials credentials = CourierCredentials.from(randomCourier);
@@ -58,7 +58,7 @@ public class LoginTest {
     }
 
     @Test
-    public void loginWithInvalidLoginFails() {
+    public void loginWithInvalidLoginFailsTest() {
         courierClient.create(randomCourier);
         courierId = courierClient.login(CourierCredentials.from(randomCourier)).extract().path("id");
         CourierCredentials credentials = CourierCredentials.from(randomCourier);
@@ -68,7 +68,7 @@ public class LoginTest {
     }
 
     @Test
-    public void loginWithInvalidPasswordFails() {
+    public void loginWithInvalidPasswordFailsTest() {
         courierClient.create(randomCourier);
         courierId = courierClient.login(CourierCredentials.from(randomCourier)).extract().path("id");
         CourierCredentials credentials = CourierCredentials.from(randomCourier);
@@ -78,7 +78,7 @@ public class LoginTest {
     }
 
     @Test
-    public void loginNonexistentCourierFails() {
+    public void loginNonexistentCourierFailsTest() {
         CourierCredentials credentials = CourierCredentials.from(randomCourier);
         ValidatableResponse loginResponse = courierClient.login(credentials);
         check.loggedInWithInvalidFieldFailed(loginResponse);

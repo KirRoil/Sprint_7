@@ -41,10 +41,10 @@ public class OrdersParamTest {
     }
 
     @Test
-    public void orderCanBeCreatedWithColor() {
+    public void orderCanBeCreatedWithColorTest() {
         defaultOrder.setColor(color);
         ValidatableResponse createResponse = ordersClient.create(defaultOrder);
-        check.creationSuccessfully(createResponse);
         orderId = createResponse.extract().path("track");
+        check.creationSuccessfully(createResponse);
     }
 }
